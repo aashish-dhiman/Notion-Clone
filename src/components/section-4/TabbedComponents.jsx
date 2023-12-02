@@ -86,24 +86,24 @@ const TabbedComponents = () => {
     return (
         <div className="flex items-center flex-col gap-5 mt-10">
             {/* tabs */}
-            <div className="flex items-center gap-3 flex-wrap w-full">
+            <div className="flex items-center justify-center gap-3 flex-wrap w-full">
                 {obj?.map((item) => {
                     return (
                         <div
                             key={item.id}
                             className={`${
                                 activeTab === item.id
-                                    ? "bg-white border-2"
-                                    : "bg-[#f6f5f4]"
-                            } p-2 md:p-4 rounded-xl group flex-1 cursor-pointer`}
+                                    ? "bg-white border-[1px]"
+                                    : "bg-[#f6f5f4] "
+                            } p-2 md:p-3 rounded-xl group flex-1 cursor-pointer transition-all ease-in-out `}
                             onClick={() => tabHandler(item.id)}
                         >
-                            <span className="flex items-center flex-col">
+                            <span className="flex items-center gap-1 flex-col">
                                 <img
                                     src={item.logo}
                                     className={`w-[50%] hidden lg:block`}
                                 />{" "}
-                                <h3 className="text-md  md:text-2xl font-[700] leading-10">
+                                <h3 className="text-md md:text-lg font-[500] leading-10">
                                     {item.title}
                                 </h3>
                             </span>

@@ -98,6 +98,7 @@ const TabbedComponents = () => {
                                 <h3 className="text-2xl font-[700] leading-10">
                                     {item.title}
                                 </h3>
+                                {item.id===1 && <span className="text-[#ac53df] bg-[#f0e1f9] text-xs px-2 font-bold rounded-xl">Now with Q&A</span>}
                             </span>
                             <p
                                 className={`text-[14px] font-semibold ${

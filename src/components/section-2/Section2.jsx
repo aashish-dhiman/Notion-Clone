@@ -26,7 +26,7 @@ const Section2 = () => {
                     <h3 className="text-xl sm:text-3xl md:text-5xl font-bold">
                         Millions run on Notion every day
                     </h3>
-                    <p className="w-[80%] md:w-[60%] text-center text-md sm:text-lg ">
+                    <p className="w-[80%] md:w-[60%] text-center text-md sm:text-xl ">
                         Powering the world’s best teams, from next-generation
                         startups to established enterprises.
                     </p>
