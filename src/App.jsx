@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
+import NavbarPC from "./components/Navbar/NavbarPC";
 import Section1 from "./components/section-hero/Section1";
 import Section2 from "./components/section-2/Section2";
 import Section3 from "./components/section-3/Section3";
@@ -12,7 +12,7 @@ import Footer from "./components/footer/Footer";
 function App() {
     return (
         <>
-            <Navbar />
+            <NavbarPC />
             <main className="px-[10px] sm:px-[40px] md:px-[120px] py-20">
                 <Section1 />
                 <Section2 />
