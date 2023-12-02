@@ -86,7 +86,7 @@ const TabbedComponents = () => {
                                 activeTab === item.id
                                     ? "bg-white"
                                     : "bg-[#f6f5f4]"
-                            } p-4 rounded-xl group flex-1 h-[150px] px-5`}
+                            } p-4 rounded-xl group flex-1 h-[150px] px-5 cursor-pointer`}
                             onMouseEnter={() => tabHandler(item.id)}
                         >
                             <a href={item.link}></a>

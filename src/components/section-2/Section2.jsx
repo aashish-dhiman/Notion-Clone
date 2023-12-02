@@ -69,25 +69,29 @@ const Section2 = () => {
                             <img
                                 src={toolingL2}
                                 alt=""
-                                className="hidden lg:block absolute w-[90%] lg:-top-[400px]"
+                                className="hidden lg:block absolute w-[90%] lg:-top-[440px]"
                             />
                             <img
                                 src={emoji1}
                                 alt=""
-                                className="hidden lg:block absolute w-[20%] right-[80px] -top-[160px]"
+                                className="hidden lg:block absolute w-[20%] right-[100px] -top-[170px]"
                             />
                         </div>
                     </div>
                     <div className="flex items-center flex-col gap-5 px-2 sm:px-10 mt-8 md:mt-14">
-                        <p className="text-center text-lg md:text-2xl font-medium px-3 lg:px-[120px] md:mx-10">
-                            &quot;We got rid of nearly a dozen different tools
-                            because of what Notion does for us.&quot;
+                        <p className="text-center text-lg md:text-3xl font-medium px-3 lg:px-[120px] md:mx-10 font-serif">
+                            &ldquo;We got rid of nearly a dozen different tools
+                            because of what Notion does for us.&rdquo;
                         </p>
                         <div className="flex items-center justify-center gap-2 -mt-2">
-                            <img src={meta} alt="" className="w-[20%]"/>
+                            <img src={meta} alt="" className="w-[20%]" />
                             <span>
-                                <span className="text-sm font-bold">Jsutin Watt</span>
-                                <p className="font-light ">Director of Ops & Marketing, MetaLab</p>
+                                <span className="text-sm md:text-lg font-bold">
+                                    Justin Watt
+                                </span>
+                                <p className="text-sm ">
+                                    Director of Ops & Marketing, MetaLab
+                                </p>
                             </span>
                         </div>
                     </div>
