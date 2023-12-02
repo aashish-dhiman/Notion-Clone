@@ -69,7 +69,7 @@ const TabbedComponents = () => {
 
     // automatically switch tabs after every 3 seconds
     useEffect(() => {
-        const intervalId = setInterval(switchTabsAutomatically, 2000);
+        const intervalId = setInterval(switchTabsAutomatically, 3000);
 
         return () => clearInterval(intervalId);
     }, [activeTab]); 
@@ -86,23 +86,22 @@ const TabbedComponents = () => {
                                 activeTab === item.id
                                     ? "bg-white"
                                     : "bg-[#f6f5f4]"
-                            } p-4 rounded-xl group flex-1 h-[150px] px-5 cursor-pointer`}
+                            } rounded-xl group flex-1 h-[150px] p-4 md:px-5 cursor-pointer`}
                             onMouseEnter={() => tabHandler(item.id)}
                         >
                             <a href={item.link}></a>
                             <span className="flex items-center gap-3">
                                 <item.logo
                                     className={`text-[24px] text-[${item.colour}]`}
-                                    onClick={() => console.log(item.colour)}
                                 />{" "}
-                                <h3 className="text-2xl font-[700] leading-10">
+                                <h3 className="text-xl md:text-2xl font-[700] md:leading-10">
                                     {item.title}
                                 </h3>
-                                {item.id===1 && <span className="text-[#ac53df] bg-[#f0e1f9] text-xs px-2 font-bold rounded-xl">Now with Q&A</span>}
+                                {item.id===1 && <span className="text-[#ac53df] bg-[#f0e1f9] text-[8px] sm:text-xs px-1 sm:px-2 font-bold rounded-xl">Now with Q&A</span>}
                             </span>
                             <p
                                 className={`text-[14px] font-semibold ${
-                                    item.id === activeTab ? "mt-2" : "mt-5"
+                                    item.id === activeTab ? "mt-2" : "mt-3 md:mt-5"
                                 } group-hover:mt-2 transition-all ease-in-out duration-200`}
                             >
                                 {item.detail}

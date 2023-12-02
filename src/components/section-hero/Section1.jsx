@@ -4,7 +4,7 @@ import TabbedComponents from "./TabbedComponents";
 
 const Section1 = () => {
     return (
-        <section className="mt-4">
+        <section className="mt-10 sm:mt-4">
             {/* hero section */}
             <div>
                 <div className="flex flex-col items-center gap-3 text-center">
