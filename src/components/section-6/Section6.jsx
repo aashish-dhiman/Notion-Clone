@@ -43,20 +43,24 @@ const Section6 = () => {
                             </a>
                         </div>
                     </div>
-                    <img src={png65} alt="" className="ml-7 -mb-7 rounded-xl pt-14" />
+                    <img
+                        src={png65}
+                        alt=""
+                        className="ml-7 -mb-7 rounded-xl pt-14"
+                    />
                 </div>
 
                 {/* sidebar */}
-                <div className="flex-1 min-h-full flex items-center flex-col gap-6 mt-6 w-full">
-                    {/* col 1 */}
-                    <div className="flex items-center gap-6 justify-between w-full">
-                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-6">
+                <div className="flex-1 min-h-full flex items-center flex-col gap-3 sm:gap-6 mt-6 w-full">
+                    {/* row 1 */}
+                    <div className="flex items-center gap-3 sm:gap-6 justify-between w-full">
+                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-4">
                             {" "}
                             <span>
                                 <FaFlagCheckered className="text-[22px] text-[#0a85d1]" />
                             </span>
                             <div className="mt-4 ">
-                                <h5 className="text-xl font-bold w-full">
+                                <h5 className="text-lg sm:text-xl font-bold w-full">
                                     Product roadmap
                                 </h5>
                                 <a
@@ -69,13 +73,15 @@ const Section6 = () => {
                             </div>
                         </div>
 
-                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 ">
+                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-4">
                             {" "}
                             <span>
                                 <FaCheckCircle className="text-[24px] text-orange-500 " />
                             </span>
                             <div className="mt-4 ">
-                                <h5 className="text-xl font-bold">OKRs</h5>
+                                <h5 className="text-lg sm:text-xl font-bold">
+                                    OKRs
+                                </h5>
                                 <a
                                     href="https://www.notion.so/templates/notions-company-goals"
                                     className="flex items-center gap-2 font-medium text-blue-400 mt-4 group hover:underline"
@@ -86,15 +92,15 @@ const Section6 = () => {
                             </div>
                         </div>
                     </div>
-                    {/* col 2 */}
-                    <div className="flex items-center gap-6 justify-between w-full">
-                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-6">
+                    {/* row 2 */}
+                    <div className="flex items-center gap-3 sm:gap-6 justify-between w-full">
+                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-4">
                             {" "}
                             <span>
                                 <GrDocumentNotes className="text-[22px] text-orange-400" />
                             </span>
                             <div className="mt-4 ">
-                                <h5 className="text-xl font-bold w-full">
+                                <h5 className="text-lg sm:text-xl font-bold w-full">
                                     Meeting notes
                                 </h5>
                                 <a
@@ -107,13 +113,13 @@ const Section6 = () => {
                             </div>
                         </div>
 
-                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 ">
+                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-4">
                             {" "}
                             <span>
                                 <IoIosAirplane className="text-[26px] text-[#ea4e43] " />
                             </span>
                             <div className="mt-4 ">
-                                <h5 className="text-xl font-bold">
+                                <h5 className="text-lg sm:text-xl font-bold">
                                     Vacation planner
                                 </h5>
                                 <a
@@ -126,14 +132,16 @@ const Section6 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex items-center gap-6 justify-between w-full">
-                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-6">
+
+                    {/* row 3 */}
+                    <div className="flex items-center gap-3 sm:gap-6 justify-between w-full">
+                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-4">
                             {" "}
                             <span>
                                 <SlCalender className="text-[22px] text-[#2a9d99]" />
                             </span>
                             <div className="mt-4 ">
-                                <h5 className="text-xl font-bold w-full">
+                                <h5 className="text-lg sm:text-xl font-bold w-full">
                                     Editorial calender
                                 </h5>
                                 <a
@@ -146,13 +154,13 @@ const Section6 = () => {
                             </div>
                         </div>
 
-                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 ">
+                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-4">
                             {" "}
                             <span>
                                 <IoBed className="text-[24px] text-[#9d34da] " />
                             </span>
                             <div className="mt-4 ">
-                                <h5 className="text-xl font-bold">
+                                <h5 className="text-lg sm:text-xl font-bold">
                                     Habit tracker
                                 </h5>
                                 <a

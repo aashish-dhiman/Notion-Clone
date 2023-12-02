@@ -5,10 +5,10 @@ const Section7 = () => {
     return (
         <section className="pt-8 sm:pt-14 md:pt-[100px] px-2 md:px-0 -mb-20">
             <div className="flex items-center flex-col gap-5 px-2 sm:px-10 text-center">
-                <h3 className="text-xl sm:text-3xl md:text-6xl font-bold">
+                <h3 className="text-2xl sm:text-3xl md:text-6xl font-bold">
                     Get started for free
                 </h3>
-                <p className="w-[80%] md:w-[60%] text-center text-lg ">
+                <p className="w-[70%] md:w-[60%] text-center text-lg ">
                     Play around with it first. Pay and add your team later.
                 </p>
                 <div className="flex items-center gap-5">
