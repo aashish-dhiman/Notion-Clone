@@ -34,7 +34,7 @@ const NavbarSmall = () => {
                 </span>
             </div>
             {open && (
-                <div className="sticky top-[60px] flex flex-col items-start w-full bg-white z-30 px-4 min-h-screen overflow-y-scroll ">
+                <div className="fixed top-[60px] flex flex-col items-start w-full bg-white z-30 px-4 min-h-screen overflow-y-scroll ">
                     {/* products */}
                     <div className="border-b-[1px] w-full">
                         <div

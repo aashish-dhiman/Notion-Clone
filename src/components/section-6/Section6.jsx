@@ -54,13 +54,13 @@ const Section6 = () => {
                 <div className="flex-1 min-h-full flex items-center flex-col gap-3 sm:gap-6 mt-6 w-full">
                     {/* row 1 */}
                     <div className="flex items-center gap-3 sm:gap-6 justify-between w-full">
-                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-4">
+                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-2 sm:px-4">
                             {" "}
                             <span>
                                 <FaFlagCheckered className="text-[22px] text-[#0a85d1]" />
                             </span>
                             <div className="mt-4 ">
-                                <h5 className="text-lg sm:text-xl font-bold w-full">
+                                <h5 className="text-md sm:text-xl font-bold w-full">
                                     Product roadmap
                                 </h5>
                                 <a
@@ -73,13 +73,13 @@ const Section6 = () => {
                             </div>
                         </div>
 
-                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-4">
+                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-2 sm:px-4">
                             {" "}
                             <span>
                                 <FaCheckCircle className="text-[24px] text-orange-500 " />
                             </span>
                             <div className="mt-4 ">
-                                <h5 className="text-lg sm:text-xl font-bold">
+                                <h5 className="text-md sm:text-xl font-bold">
                                     OKRs
                                 </h5>
                                 <a
@@ -94,13 +94,13 @@ const Section6 = () => {
                     </div>
                     {/* row 2 */}
                     <div className="flex items-center gap-3 sm:gap-6 justify-between w-full">
-                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-4">
+                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-2 sm:px-4">
                             {" "}
                             <span>
                                 <GrDocumentNotes className="text-[22px] text-orange-400" />
                             </span>
                             <div className="mt-4 ">
-                                <h5 className="text-lg sm:text-xl font-bold w-full">
+                                <h5 className="text-md sm:text-xl font-bold w-full">
                                     Meeting notes
                                 </h5>
                                 <a
@@ -113,13 +113,13 @@ const Section6 = () => {
                             </div>
                         </div>
 
-                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-4">
+                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-2 sm:px-4">
                             {" "}
                             <span>
                                 <IoIosAirplane className="text-[26px] text-[#ea4e43] " />
                             </span>
                             <div className="mt-4 ">
-                                <h5 className="text-lg sm:text-xl font-bold">
+                                <h5 className="text-md sm:text-xl font-bold">
                                     Vacation planner
                                 </h5>
                                 <a
@@ -135,13 +135,13 @@ const Section6 = () => {
 
                     {/* row 3 */}
                     <div className="flex items-center gap-3 sm:gap-6 justify-between w-full">
-                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-4">
+                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-2 sm:px-4">
                             {" "}
                             <span>
                                 <SlCalender className="text-[22px] text-[#2a9d99]" />
                             </span>
                             <div className="mt-4 ">
-                                <h5 className="text-lg sm:text-xl font-bold w-full">
+                                <h5 className="text-md sm:text-xl font-bold w-full">
                                     Editorial calender
                                 </h5>
                                 <a
@@ -154,13 +154,13 @@ const Section6 = () => {
                             </div>
                         </div>
 
-                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-4">
+                        <div className="flex-1 cursor-pointer bg-[#f6f5f4] rounded-xl p-8 px-2 sm:px-4">
                             {" "}
                             <span>
                                 <IoBed className="text-[24px] text-[#9d34da] " />
                             </span>
                             <div className="mt-4 ">
-                                <h5 className="text-lg sm:text-xl font-bold">
+                                <h5 className="text-md sm:text-xl font-bold">
                                     Habit tracker
                                 </h5>
                                 <a
