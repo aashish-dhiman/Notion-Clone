@@ -3,7 +3,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 const Navbar = () => {
     return (
-        <nav className="flex items-center gap-5 w-full p-3 fixed top-0 left-0 bg-white border-b-[1px]">
+        <nav className="flex items-center gap-5 w-full p-3 fixed top-0 left-0 bg-white border-b-[1px] z-50">
             <div>
                 <a
                     href="https://www.notion.so/product"

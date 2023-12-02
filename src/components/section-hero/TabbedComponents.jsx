@@ -1,10 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import tab1 from "../../assets/tab1.png";
 import tab2 from "../../assets/tab2.png";
 import tab3 from "../../assets/tab3.png";
 import tab4 from "../../assets/tab4.png";
 import { VscSparkle } from "react-icons/vsc";
-import { FcWikipedia } from "react-icons/fc";
+import { SiWikipedia } from "react-icons/si";
 import { GoGoal } from "react-icons/go";
 import { IoDocumentOutline } from "react-icons/io5";
 import { FaArrowRight } from "react-icons/fa";
@@ -26,7 +26,7 @@ const TabbedComponents = () => {
             detail: "Centralize your knowledge. No more hunting for answers.",
             link: "https://notion.so/product/wikis",
             img: tab2,
-            logo: FcWikipedia,
+            logo: SiWikipedia,
             colour: "#ed665d",
         },
         {
@@ -59,6 +59,21 @@ const TabbedComponents = () => {
         });
         setTabImage(activeItem.img);
     };
+
+    const switchTabsAutomatically = () => {
+        const currentTabIndex = obj.findIndex((item) => item.id === activeTab);
+        const nextTabIndex = (currentTabIndex + 1) % obj.length; 
+        const nextTabId = obj[nextTabIndex].id;
+        tabHandler(nextTabId);
+    };
+
+    // automatically switch tabs after every 3 seconds
+    useEffect(() => {
+        const intervalId = setInterval(switchTabsAutomatically, 2000);
+
+        return () => clearInterval(intervalId);
+    }, [activeTab]); 
+
     return (
         <div className="flex items-center flex-col gap-5">
             {/* tabs */}
@@ -71,7 +86,7 @@ const TabbedComponents = () => {
                                 activeTab === item.id
                                     ? "bg-white"
                                     : "bg-[#f6f5f4]"
-                            } p-4 rounded-xl group flex-1 h-[150px]`}
+                            } p-4 rounded-xl group flex-1 h-[150px] px-5`}
                             onMouseEnter={() => tabHandler(item.id)}
                         >
                             <a href={item.link}></a>
@@ -84,12 +99,26 @@ const TabbedComponents = () => {
                                     {item.title}
                                 </h3>
                             </span>
-                            <p className="text-[14px] font-semibold mt-5 group-hover:mt-2 transition-all ease-in-out duration-200">
+                            <p
+                                className={`text-[14px] font-semibold ${
+                                    item.id === activeTab ? "mt-2" : "mt-5"
+                                } group-hover:mt-2 transition-all ease-in-out duration-200`}
+                            >
                                 {item.detail}
                             </p>
                             <a
                                 href={item.link}
-                                className={`hidden group-hover:flex text-[14px] items-center gap-2 text-orange-300 `}
+                                className={`group-hover:flex ${
+                                    item.id === activeTab ? "flex" : "hidden"
+                                } text-[14px] font-medium items-center gap-2 ${
+                                    item.id === 1
+                                        ? "text-[#a748de]"
+                                        : item.id === 2
+                                        ? "text-[#ed665d]"
+                                        : item.id === 3
+                                        ? "text-[#369ad8]"
+                                        : "text-[#ffbb33]"
+                                } `}
                             >
                                 Learn More <FaArrowRight className="mt-1" />
                             </a>
