@@ -62,7 +62,17 @@ const Footer = () => {
                                 >
                                     <a href={item.link}>
                                         <item.icon
-                                            className={`group-hover:text-[${item.hover}] text-gray-500`}
+                                            className={`${
+                                                item.id === 1
+                                                    ? "group-hover:text-[#d62976]"
+                                                    : item.id === 2
+                                                    ? "group-hover:text-[#1da1f2]"
+                                                    : item.id === 3
+                                                    ? "group-hover:text-[#0077b5]"
+                                                    : item.id === 4
+                                                    ? "group-hover:text-[#316ff6]"
+                                                    : "group-hover:text-[#CD201F]"
+                                            } text-gray-500`}
                                         />
                                     </a>
                                 </span>
@@ -97,9 +107,12 @@ const Footer = () => {
                                             return (
                                                 <li
                                                     key={i}
-                                                    className="text-gray-400 font-[500] hover:underline hover:text-blue-500"
+                                                    className="text-gray-400 font-[500] "
                                                 >
-                                                    <a href={it.link}>
+                                                    <a
+                                                        href={it.link}
+                                                        className="hover:underline hover:text-blue-500"
+                                                    >
                                                         {it.name}
                                                     </a>
                                                 </li>
@@ -111,7 +124,9 @@ const Footer = () => {
                         })}
                     </div>
                     <div className="">
-                        <p className="text-sm">We do not sell or share your personal information</p>
+                        <p className="text-sm">
+                            We do not sell or share your personal information
+                        </p>
                         <span className="text-gray-400 text-[14px]">
                             © {new Date().getFullYear()} Notion Labs, Inc.
                         </span>
