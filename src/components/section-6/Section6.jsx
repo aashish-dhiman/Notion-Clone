@@ -18,10 +18,10 @@ const Section6 = () => {
 
                 <a
                     href="https://www.notion.so/templates"
-                    className="flex items-center gap-2 font-medium text-blue-500 mt-2 group hover:underline"
+                    className="flex items-center gap-2 font-medium text-blue-400 mt-2 group hover:underline"
                 >
                     Browse all templates{" "}
-                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-500" />
+                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-400" />
                 </a>
             </div>
 
@@ -36,10 +36,10 @@ const Section6 = () => {
                             <h5 className="text-xl font-bold">Company wiki</h5>
                             <a
                                 href="https://www.notion.so/templates/company-home"
-                                className="flex items-center gap-2 font-medium text-blue-500 mt-2 group hover:underline"
+                                className="flex items-center gap-2 font-medium text-blue-400 mt-2 group hover:underline"
                             >
                                 Get template{" "}
-                                <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-500" />
+                                <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-400" />
                             </a>
                         </div>
                     </div>
@@ -61,10 +61,10 @@ const Section6 = () => {
                                 </h5>
                                 <a
                                     href="https://www.notion.so/templates/roadmap"
-                                    className="flex items-center gap-2 font-medium text-blue-500 mt-4 group hover:underline"
+                                    className="flex items-center gap-2 font-medium text-blue-400 mt-4 group hover:underline"
                                 >
                                     Get template{" "}
-                                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-500" />
+                                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-400" />
                                 </a>
                             </div>
                         </div>
@@ -78,10 +78,10 @@ const Section6 = () => {
                                 <h5 className="text-xl font-bold">OKRs</h5>
                                 <a
                                     href="https://www.notion.so/templates/notions-company-goals"
-                                    className="flex items-center gap-2 font-medium text-blue-500 mt-4 group hover:underline"
+                                    className="flex items-center gap-2 font-medium text-blue-400 mt-4 group hover:underline"
                                 >
                                     Get template{" "}
-                                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-500" />
+                                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-400" />
                                 </a>
                             </div>
                         </div>
@@ -99,10 +99,10 @@ const Section6 = () => {
                                 </h5>
                                 <a
                                     href="https://www.notion.so/templates/meeting-notes-startup"
-                                    className="flex items-center gap-2 font-medium text-blue-500 mt-4 group hover:underline"
+                                    className="flex items-center gap-2 font-medium text-blue-400 mt-4 group hover:underline"
                                 >
                                     Get template{" "}
-                                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-500" />
+                                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-400" />
                                 </a>
                             </div>
                         </div>
@@ -118,10 +118,10 @@ const Section6 = () => {
                                 </h5>
                                 <a
                                     href="https://www.notion.so/templates/travel-planning"
-                                    className="flex items-center gap-2 font-medium text-blue-500 mt-4 group hover:underline"
+                                    className="flex items-center gap-2 font-medium text-blue-400 mt-4 group hover:underline"
                                 >
                                     Get template{" "}
-                                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-500" />
+                                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-400" />
                                 </a>
                             </div>
                         </div>
@@ -138,10 +138,10 @@ const Section6 = () => {
                                 </h5>
                                 <a
                                     href="https://www.notion.so/templates/notions-editorial-calendar"
-                                    className="flex items-center gap-2 font-medium text-blue-500 mt-4 group hover:underline"
+                                    className="flex items-center gap-2 font-medium text-blue-400 mt-4 group hover:underline"
                                 >
                                     Get template{" "}
-                                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-500" />
+                                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-400" />
                                 </a>
                             </div>
                         </div>
@@ -157,10 +157,10 @@ const Section6 = () => {
                                 </h5>
                                 <a
                                     href="https://www.notion.so/templates/notion-habit-tracker"
-                                    className="flex items-center gap-2 font-medium text-blue-500 mt-4 group hover:underline"
+                                    className="flex items-center gap-2 font-medium text-blue-400 mt-4 group hover:underline"
                                 >
                                     Get template{" "}
-                                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-500" />
+                                    <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-400" />
                                 </a>
                             </div>
                         </div>
