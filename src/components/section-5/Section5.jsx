@@ -31,9 +31,10 @@ const Section5 = () => {
                     </p>
                     <a
                         href="https://www.notion.so/community"
-                        className="flex items-center gap-2 font-medium text-blue-500 -mt-2 hover:underline"
+                        className="flex items-center gap-2 font-medium text-blue-500 -mt-2 group hover:underline"
                     >
-                        Learn More <FaArrowRight className="mt-1" />
+                        Learn More{" "}
+                        <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-500" />
                     </a>
                 </div>
             </div>
@@ -102,7 +103,7 @@ const Section5 = () => {
 
                     <div className="flex items-center flex-col md:flex-row justify-center gap-6 overflow-hidden h-full">
                         {/* slider */}
-                        <div className="md:w-[65%] bg-[#f6f5f4] rounded-xl p-4 md:p-8 mt-6 md:h-[580px] hidden md:flex select-none">
+                        <div className="md:w-[65%] bg-[#f6f5f4] rounded-xl p-4 md:p-8 mt-6 md:h-[590px] hidden md:flex select-none">
                             <Swiper
                                 navigation={true}
                                 modules={[Pagination, Navigation]}

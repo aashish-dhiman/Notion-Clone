@@ -32,9 +32,9 @@ const Section2 = () => {
                     </p>
                     <a
                         href="https://www.notion.so/customers"
-                        className="flex items-center gap-2 font-medium text-blue-500 -mt-2 hover:underline"
+                        className="flex items-center gap-2 font-medium text-blue-500 -mt-2 group hover:underline"
                     >
-                        Read Customer Stories <FaArrowRight className="mt-1" />
+                        Read Customer Stories <FaArrowRight className="mt-1 group-hover:border-b-[2px] border-blue-500" />
                     </a>
                 </div>
                 {/* image tools */}
@@ -69,17 +69,17 @@ const Section2 = () => {
                             <img
                                 src={toolingL2}
                                 alt=""
-                                className="hidden lg:block absolute w-[90%] lg:-top-[440px]"
+                                className="hidden lg:block absolute w-[90%] lg:-top-[390px] object-contain"
                             />
                             <img
                                 src={emoji1}
                                 alt=""
-                                className="hidden lg:block absolute w-[20%] right-[100px] -top-[170px]"
+                                className="hidden lg:block absolute w-[20%] right-[90px] -top-[150px]"
                             />
                         </div>
                     </div>
                     <div className="flex items-center flex-col gap-5 px-2 sm:px-10 mt-8 md:mt-14">
-                        <p className="text-center text-lg md:text-3xl font-medium px-3 lg:px-[120px] md:mx-10 font-serif">
+                        <p className="text-center text-lg md:text-3xl font-medium px-3 lg:px-[100px] md:mx-8 font-serif">
                             &ldquo;We got rid of nearly a dozen different tools
                             because of what Notion does for us.&rdquo;
                         </p>
