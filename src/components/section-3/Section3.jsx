@@ -44,7 +44,7 @@ const Section3 = () => {
 
             <div className="flex items-center flex-col sm:flex-row justify-center gap-6 overflow-hidden">
                 <div className="flex-1 bg-[#f6f5f4] rounded-xl p-8 mt-6">
-                    <div className="w-[90%]">
+                    <div className="w-[100%]">
                         <span>
                             <FaEye className="text-[28px] text-blue-500" />
                         </span>
