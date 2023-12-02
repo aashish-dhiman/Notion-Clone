@@ -1,9 +1,9 @@
 import logo from "../assets/logo.png";
-import { Link } from "react-router-dom";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Navbar = () => {
     return (
-        <nav className="flex items-center p-4 fixed top-0 left-0">
+        <nav className="flex items-center gap-5 w-full p-3 fixed top-0 left-0 bg-white border-b-[1px]">
             <div>
                 <a
                     href="https://www.notion.so/product"
@@ -13,14 +13,50 @@ const Navbar = () => {
                     <span className="font-bold text-lg">Notion</span>
                 </a>
             </div>
-            <div>
-                <span>Product</span>
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+            <div className="flex-1 flex items-center gap-2">
+                <span className="flex items-center gap-1 font-medium px-2 py-1 rounded-md hover:bg-gray-100 group cursor-pointer transition-all ease-in-out duration-150">
+                    Product{" "}
+                    <IoIosArrowDown className="text-[12px] mt-1 font-extrabold group-hover:rotate-180" />
+                </span>
+                <span className="flex items-center gap-1 font-medium px-2 py-1 rounded-md hover:bg-gray-100 group cursor-pointer transition-all ease-in-out duration-150">
+                    Download{" "}
+                    <IoIosArrowDown className="text-[12px] mt-1 font-extrabold group-hover:rotate-180" />
+                </span>
+                <span className="flex items-center gap-1 font-medium px-2 py-1 rounded-md hover:bg-gray-100 group cursor-pointer transition-all ease-in-out duration-150">
+                    Solutions{" "}
+                    <IoIosArrowDown className="text-[12px] mt-1 font-extrabold group-hover:rotate-180" />
+                </span>
+                <span className="flex items-center gap-1 font-medium px-2 py-1 rounded-md hover:bg-gray-100 group cursor-pointer transition-all ease-in-out duration-150">
+                    Resources{" "}
+                    <IoIosArrowDown className="text-[12px] mt-1 font-extrabold group-hover:rotate-180" />
+                </span>
+                <a href="https://www.notion.so/pricing">
+                    <span className="flex items-center gap-1 font-medium px-2 py-1 rounded-md hover:bg-gray-100 ">
+                        Pricing
+                    </span>
+                </a>
             </div>
-            <div></div>
+            <div className="flex items-center gap-3">
+                <a
+                    href="https://www.notion.so/contact-sales"
+                    className="border-r-[1px] pr-2"
+                >
+                    <span className="px-2 py-1 rounded-md font-medium hover:bg-gray-100 group cursor-pointer transition-all ease-in-out duration-150 ">
+                        Request a demo
+                    </span>
+                </a>
+                <a href="https://www.notion.so/login">
+                    <span className="px-2 py-1 rounded-md hover:bg-gray-100 font-[500] group cursor-pointer transition-all ease-in-out duration-150">
+                        Log in
+                    </span>
+                </a>
+                <a
+                    href="https://www.notion.so/signup"
+                    className="bg-black hover:bg-gray-800 text-white font-medium rounded-lg px-2 py-1 text-[14px]"
+                >
+                    Get Notion Free
+                </a>
+            </div>
         </nav>
     );
 };
