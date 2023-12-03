@@ -69,12 +69,12 @@ const Section2 = () => {
                             <img
                                 src={toolingL2}
                                 alt=""
-                                className="hidden lg:block absolute w-[90%] lg:-top-[390px] object-contain"
+                                className=" absolute w-[90%] md:w-[65%] object-contain"
                             />
                             <img
                                 src={emoji1}
                                 alt=""
-                                className="hidden lg:block absolute w-[20%] right-[90px] -top-[150px]"
+                                className="absolute w-[10%] md:w-[16%] right-10 sm:right-18 lg:right-[90px] -top-10 sm:-top-[100px] lg:-top-[130px]"
                             />
                         </div>
                     </div>
