@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the code for the assignment completed for HireQuotient, where the task was to clone the Notion homepage. The project was implemented using React and Tailwind CSS to recreate the look and feel of the Notion homepage.
+This repository contains the code for the Notion UI Clone. The project was implemented using React and Tailwind CSS to recreate the look and feel of the Notion homepage.
 
 ## Features
 
